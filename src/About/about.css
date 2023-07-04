@@ -1,0 +1,62 @@
+.about-container {
+    background-image: url("../assests/AboutUs.png");
+    background-size: cover;
+}
+
+.about-text-container {
+    display: flex;
+}
+
+.about-img {
+    border-radius: 20px;
+    filter: drop-shadow(10px, 10px, 10px, white);
+    margin: 20px;
+    margin-left: 70px;
+    margin-top: 15%;
+}
+
+.about-text {
+    color: white;
+    padding-top: 200px;
+}
+
+.about-heading {
+    font-size: 2rem;
+}
+.about-text-main {
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+.about-text {
+    width: 600px;
+}
+
+.h2 {
+    color: #ee4e39;
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .about-container{
+        background-size: cover;
+    }
+    .about-text-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-text {
+        padding: 0;
+        width: 90%;
+        text-align: left;
+        padding-left: 30px;
+    }
+    .about-img{
+        height:450px;
+        width:400px;
+    }
+}
+
+
